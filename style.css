@@ -1,0 +1,300 @@
+/* --- RESET -------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+
+/* --- GEN -------------------------------------------------------- */
+.mobile {
+	display:none}
+
+body {
+	background:#242833;
+	font-family:'Source sans pro', helvetica, arial, sans-serif;
+	font-size:1.2em;
+	color:#c0c0c0;}
+	
+a, a#language {
+	color:#41fff8;
+	text-decoration:none;}
+	
+p a:hover, section a:hover {
+	color:#000;
+	background:#41fff8;
+	border-bottom:3px solid #41fff8}
+	
+p a, section a {
+	border-bottom:1px solid #444}
+
+.slash {
+	color:#666;
+	font-size:0.6em;
+	position:relative;
+	display:inline !important;
+	top:-3px}
+
+
+/* --- BANNER -------------------------------------------------------- */
+header {
+	background:#00adf2 url('img/bg-gradient.png') repeat-x;
+	min-height:500px;
+	margin-bottom:50px;}
+
+div#banner {
+	background:url('img/bg-stars.png') repeat;}
+	
+div#banner-centering {
+	position:relative;
+	width:90%;
+	margin:auto;
+	min-height:450px;}
+	
+div#logo {
+	padding:7% 0;}
+
+div#logo img {
+	width:70%;}
+	
+div#details {
+	position:absolute;
+	right:0;
+	top:50px;
+	width:300px;
+	color:#fff;
+	z-index:20;}
+	
+div#details div {
+	border-radius:5px;
+	margin-bottom:10px;
+	padding:10px;
+	background:#000;
+	font-size:1.35em;
+	font-weight:bold;
+	text-align:left;}
+	
+div#details img, h2 img, footer img, p img {
+	vertical-align:middle}	
+	
+	
+/* --- MENU --------------------------------------------------------- */
+div#menu {
+	background:#000;
+	padding:15px 0;
+	text-align:center;}
+	
+div#menu li {
+	color:#3d3d3d;
+	display:inline-block;}
+	
+div#menu a {
+	color:#fff;
+	font-size:0.8em;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:0 15px}
+	
+div#menu a:hover {
+	background:#222;
+	color:#ff4ab0}
+
+/* fancy animation --- */
+@keyframes colorTransition {
+    0%   {color: #fff;}
+    25%  {color: #ff4ab0;}
+    50%  {color: #17d7fa;}
+    100%  {color: #fff;}
+}
+
+@-webkit-keyframes colorTransition {
+    0%   {color: #fff;}
+    25%  {color: #ff4ab0;}
+    50%  {color: #17d7fa;}
+    100%  {color: #fff;}
+}
+
+.register {
+    -webkit-animation-name: colorTransition; /* Chrome, Safari, Opera */
+    animation-name: colorTransition;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-duration: 2s;}
+
+	
+/* --- CONTENT ------------------------------------------------------- */
+div.hr {
+	position:relative;
+	top:10px;
+	background-repeat:repeat-x;
+	height:20px;
+	clear:both;}
+	
+section {
+	margin:0 auto;
+	text-align:center}
+
+p {
+	margin-bottom:40px;
+	line-height:1.5em}
+	
+div.col {
+	width:40%;
+	display:inline-block;
+	padding:15px;
+	text-align:left;
+	vertical-align:top;}	
+
+.byline {
+	color:#fff;
+	font-family:georgia;
+	font-style:italic;}
+	
+h2 {
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:15px;
+	font-weight:bold;
+	font-size:1.25em;}
+		
+.content-session {
+	color:#b56efe;}
+	
+.content-pitch {
+	color:#ec008c;}
+	
+.content-talk {
+	color:#08bafe}
+	
+/* -- schedule */
+ul.schedule li {
+	padding:5px;
+	border-bottom:1px dotted #666699;
+	width:100%;
+	display:inline-block;
+	line-height:1.5em}
+	
+span.time {
+	float:left;
+	margin-right:10px;
+	font:0.8em courier;
+	width:50px;
+	color:#888;
+	float:left;
+	position:relative;
+	top:6px;
+	text-align:right;}
+	
+.en span.time {
+	width:60px}
+	
+span.activity {
+	width:85%;
+	float:left}
+	
+	
+/* -- contact section */
+section#menu-register, section#menu-schedule {
+	background:#32323e}
+
+span.organizer img {
+	width:80px;
+	height:80px;
+	border-radius:40px;
+	float:left;
+	margin:15px 10px}
+	
+span.organizer strong {
+	color:#fff;
+	display:block;
+	padding-top:15px}
+
+span.organizer {
+	display:block;
+	clear:left}
+	
+	
+/* -- registration */
+#mc_embed_signup {
+	position:relative;}
+	
+#mc_embed_signup input {
+	font-size:1em;
+	font-family:'Source sans pro', helvetica, arial, sans-serif;}
+	
+#mc_embed_signup input[type=email] {
+	padding:5px;
+	border-radius:3px;
+	margin:10px 0;
+	width:400px !important;
+	background:#222;
+	border:1px solid #4e8381 !important;
+	color:#41fff8;
+	margin-bottom:10px;
+	display:inline}
+	
+#mc_embed_signup input[type=submit] {
+	border-radius:5px;
+	background:#41fff8;
+	box-shadow: 0 3px 0 #000;
+	text-transform:uppercase;
+	vertical-align:middle;
+	text-align:center;
+	color:#000;
+	padding:0 10px;
+	height:40px;
+	font-size:14pt;
+	font-weight:bold;
+	position:relative;
+	top:-10px;}
+	
+#mc_embed_signup input[type=submit]:hover {
+	cursor:pointer;
+	background:#2fd8d2}
+	
+#mc_embed_signup label {
+	text-transform:uppercase;
+	font-size:0.8em;
+	font-weight:bold;}
+	
+	
+	
+/* --- FOOTER ------------------------------------------------------- */
+footer {
+	text-align:center;
+	background:#293051;
+	clear:both;}
+	
+h3 {
+	color:#000;
+	text-align:center;
+	text-transform:uppercase;
+	padding:30px 0 0 0;
+	font-weight:normal;}
+
+footer .slash {
+	color:#000;}
+	
+footer span img {
+	padding:10px}
+	
+.mrgs img {
+	height:150px}
+	
+.gold img {
+	height:80px;}
+
+.silver img {
+	height:80px;}
+
+.bronze img {
+	height:45px}
+
+.gold, .silver, .bronze, .mrgs {
+	margin:10px 0;
+	display:block;}
+	
+section#credits {
+	background:#222;
+	text-align:center;
+	font-size:0.6em;
+	text-transform:uppercase;
+	padding:10px;
+	margin-top:50px;}

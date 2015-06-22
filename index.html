@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+	<title>GameLoop Montréal</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	<meta property="og:title" content="GameLoop Montréal"/>
+	<meta property="og:image" content="http://gameloop.mrgs.ca/img/og-facebook.png"/>
+
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 599px)" />
+	<link rel="stylesheet" href="style.css" media="screen and (min-width: 600px)"/>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+	   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+	   { 
+		  $(".fr").hide();
+
+		  $("#language").click(function(){
+			  $(".fr").toggle();
+			  $(".en").toggle();
+		  });
+		};
+	});
+	</script>
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+	<header>
+		<div id="menu">
+			<span class="mobile"><a href="#" id="language"><span class="en">Lire en français</span><span class="fr">Read in english</span></a></span>
+			
+			<ul>
+				<li><a href="#menu-about">About <span class="slash">/</span> À propos</a></li>
+				<li>■ <a href="#menu-register" class="register">Register <span class="slash">/</span> Inscription</a></li>
+				<li>■ <a href="#menu-schedule">Schedule <span class="slash">/</span> Horaire</a></li>
+				<li>■ <a href="#menu-contact">Contact <span class="slash">/</span> Contacter</a></li>
+				<li>■ <a href="#menu-partners">Partners <span class="slash">/</span> Partenaires</a></li>
+			</ul>
+		</div>
+		
+		<div id="banner">
+			<div id="banner-centering">
+				<div id="logo"><img src="img/logo.png"></div>
+		
+				<div id="details">
+					<div><img src="img/icon-cal.png"/>&nbsp;&nbsp; <span style="position:relative; top:2px">02 May/Mai 2015</span></div>
+					<div><img src="img/icon-loc.png"/>&nbsp;&nbsp; <span style="position:relative; top:1px">Centre LaJeunesse</span></div>
+					<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.4721232542674!2d-73.61807386508181!3d45.540827289917736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9191670d085ff%3A0x67ca391d15e05a91!2sCentre+De+Loisirs+Communautaires+Lajeunesse!5e0!3m2!1sen!2sca!4v1427678557532" width="100%" height="210" frameborder="0" style="border:0"></iframe></div>
+				</div>			
+			
+				<br style="clear:left;">
+			</div>
+		</div>
+		
+		<div class="hr" style="background-image:url('img/hr-blue.png');"></div>
+	</header>
+	
+	<section id="byline menu-about" class="content">
+		<a name="menu-about"></a>
+		
+		<div class="col byline en">
+			<p>We're a unique <strong>unconference</strong> open to all game developers, journalists, critics, academics, artists, musicians, board game makers, educators, & students. </p>
+			<p>Anyone involved in the culture of games is invited to share ideas and participate in discussions surrounding the discourse, practices, and development of games. </p>
+		</div>
+		
+		<div class="col byline fr">
+			<p>Nous sommes une “<strong>anti-conférence</strong>” ouverte à tous développeurs, critiques, universitaires, artistes, musiciens, créateurs de jeux de société, éducateurs et étudiants oeuvrant dans le monde des jeux.</p>
+			<p>Toutes les personnes impliquées dans la culture des jeux sont  invitées à venir partager leurs  idées et à participer aux vastes discours et pratiques reliés à la création des jeux.</p>
+		</div>
+	</section>
+		
+	<section id="pitch" class="content">
+		<div class="col en">
+			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Pitch a session</h2>
+			<p>The beauty of GameLoop: the attendees make the event! We need all attendees to pitch sessions! Held in the past in the Boston and Philadelphia areas, GameLoop sessions have been about formalism, narrative design, dating simulators, monetization ethics, distributed version control, voice acting, mental health and self care, iPhone shaders, independent marketing, funding, publishing, Unity development, prototyping, alternative games, multiplayer, concept art, and much, much more.</p>
+			<p>At the start of the day, attendees propose session topics in the format of  group roundtable discussions, talks, or even workshops. All session topics are put up on a board. Every attendee will get stickers to vote on the sessions they'd like to see appear throughout the day. Right after, with a combination of popular vote and need to balance out the schedule, the organizers adopt each session and the agenda for the day is created!</p>
+			<p>Don't worry about it if you've never given a talk before. If you really want to talk about something, you can pitch the session and if enough people want to attend, everyone else can talk about it!</p>
+		</div>
+			
+		<div class="col fr">
+			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Proposez une session!</h2>
+			<p>La beauté de GameLoop: les participants créent l’événement eux-même! Toutes les personnes sont invitées à proposer divers sujets de discussions liés au monde des jeux. Lors d’événements semblables par le passé à Boston et Philadelphie, les sessions ont eu plusieurs sujets divers tels que le formalisme, le design narratif, la monétisation éthique, la romance entre pnjs, le prototypage rapide, la santé mentale, les mécaniques de monétisation, le marketing indépendant, la direction audio, et plus encore.</p>
+			<p>Au début de la journée, tous les participants sont invités à proposer divers sujets de discussions liés au monde des jeux. Toutes les sessions sont notées au fur et à mesure et sont affichées sur un tableau. Par après, toutes les sessions proposées sont choisies par vote populaire, fait avec de jolis petits collants. Selon les choix des participants et les sujets intéressants, les organisateurs créent l’agenda officiel de la journée!</p>
+			<p>N’ayez pas peur si vous n’avez jamais présenté une session ou fait un discours en public! Si vous voulez réellement discuter d’un sujet, proposez une session. Si assez de gens y participent, le groupe entier pourra en discuter avec vous!</p>
+		</div>
+	</section>
+	
+	<section id="session" class="content">
+		<div class="col en">
+			<h2 class="content-session"><img src="img/icon-talk.png"> Participate in a session</h2>
+			<p>All attendees can attend any session and just listen. But... at GameLoop we encourage you to speak up: ask questions and propose answers. We care about fostering dialogue. When you go to a session: talk! We want to hear from you and your experience!</p>
+		</div>
+		
+		<div class="col fr">
+			<h2 class="content-session"><img src="img/icon-talk.png"> Participez! Discutez!</h2>
+			<p>Tous les participants peuvent aller à n’importe quelle session et écouter. Mais… à GameLoop nous vous encourageons à parler: posez des questions et suggérez des réponses. Nous voulons créer un dialogue. Lorsque vous allez à une session, faites vous entendre! Nous voulons en savoir plus à propos de vous et de vos expériences!</p>
+		</div>
+	</section>
+	
+	<section id="hangout" class="content">
+		<div class="col en">
+			<h2 class="content-talk"><img src="img/icon-tea.png"> Chat, hangout, talk!</h2>
+			<p>We have the very  beautiful Centre Lajeunesse at our disposal. If you are ever tired of sessions, we will have communal spaces that you can make your own to spend some quality time with your fellow participants, talk, share or even show off a demo of your game!</p>		
+		</div>
+		
+		<div class="col fr">
+			<h2 class="content-talk"><img src="img/icon-tea.png"> Flânez, jasez, amusez-vous! </h2>
+			<p>Notre événement se tiendra au chaleureux Centre Lajeunesse. Si vous êtes fatigués ou que vous voulez faire autre chose que d’aller aux sessions, nous aurons des espaces communautaires pour vous permettre de relaxer, parler à d’autres participants, ou même présenter un de vos jeux ou peu importe ce qui vous tente.</p>
+		</div>
+		
+		<br style="clear:left"/><br/><br/>
+		<div class="hr" style="background-image:url('img/hr.png');"></div>
+	</section>
+	
+	<section id="menu-register"><br/><br/><br/>
+		<div class="col">
+			<h2 class="register"><span class="en">Register <span class="slash">/</span> </span><span class="fr">Inscription</span></h2><br/>
+			<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.ca/tickets-external?eid=16420806073&ref=etckt" frameborder="0" height="575" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+		</div>
+		
+		<div class="col">			
+			<h2><span class="en">Request Financial Assistance <span class="slash">/</span> </span><span class="fr">Demander de l'Aide Financière</span></h2>
+			<p class="en">We really want to hear as many diverse voices as possible at GameLoop Montréal. Part of our mandate is making GameLoop Montréal as accessible as possible to everyone including those without financial means to attend. Thanks to generous participants, we'll have a number of sponsored tickets available!</p>
+			<p class="fr">Nous voulons entendre le plus de voix diverses possibles à GameLoop Montréal. Une partie de notre mandat est de nous assurer que l'événement soit le plus accessible au maximum de personnes, incluant celles ayant peu de moyens financiers. Grâce à la générosité de certains, nous aurons un nombre de billets commandités disponibles!</p>
+			<p>
+				<span class="en">&rarr; <a href="https://docs.google.com/forms/d/1Y1gGhGc_eUaK67GUFilsnLoG5pmsCm5o5TWMckQNpd8/viewform">Form: Request a sponsored ticket</a><br/></span>
+				<span class="fr">&rarr; <a href="https://docs.google.com/forms/d/1Y1gGhGc_eUaK67GUFilsnLoG5pmsCm5o5TWMckQNpd8/viewform">Formulaire : Demander un billet commandité</a></span>
+			</p>
+		</div>
+	</section>
+	
+	<section id="menu-schedule"><br/>
+		<div class="col en">
+			<h2>Schedule</h2>
+			
+			<ul class="schedule"> 
+				<li><span class="time">9am</span> <span class="activity">Doors open and breakfast is served.</span></li>
+				<li><span class="time">9am</span> <span class="activity">Meeting & greet to help everyone familiarize themselves with each other's shared interests</span></li>
+				<li><span class="time">10am</span> <span class="activity">Opening statements, session proposals, communal vote and creation of the day’s schedule</span></li>
+				<li><span class="time">10:30am</span> <span class="activity">First session starts</span></li>
+				<li><span class="time">5:30pm</span> <span class="activity">Last session ends</span></li>
+				<li><span class="time">5:30pm</span> <span class="activity">Discours de fermeture, période de commentaires</span></li>
+				<li style="border:0 !important"><span class="time">6:00pm</span> <span class="activity">Afterparty at <a href="http://www.lepourvoyeur.com/">Bar Le Pourvoyeur</a></span></li>
+			</ul>
+		</div>
+		
+		<div class="col fr">
+			<h2>Horaire</h2>
+			
+			<ul class="schedule"> 
+				<li><span class="time">9h00</span> <span class="activity">Ouverture officielle et déjeuner</span></li>
+				<li><span class="time">9h00</span> <span class="activity">Rencontre sociale pour permettre à tous les participant(e)s de partager leurs intérêts</span></li>
+				<li><span class="time">10h00</span> <span class="activity">Discours d’ouverture, proposition des sujets, vote sur les sessions et création de l’horaire de la journée</span></li>
+				<li><span class="time">10h30</span> <span class="activity">Début de la première session</span></li>
+				<li><span class="time">17h30</span> <span class="activity">Fin de la dernière session</span></li>
+				<li><span class="time">17h30</span> <span class="activity">Discours de fermeture, période de commentaires</span></li>
+				<li style="border:0 !important"><span class="time">18h00</span> <span class="activity">Fête de clôture au <a href="http://www.lepourvoyeur.com/">bar Le Pourvoyeur</a></span></li>
+			</ul>
+		</div>
+	
+		<br/><br/><br/>
+		<div class="hr" style="background-image:url('img/hr.png');"></div>
+	</section>
+	
+	<section id="menu-contact"><br/><br/><br/>
+		<div class="col">
+			<h2><span class="en">Contact <span class="slash">/</span> </span><span class="fr">Contactez-nous</span></h2>
+			<p class="en">GameLoop Montréal is a <a href="http://forum.mrgs.ca/t/slmr-politique-despace-securitaire-mrgs-safe-space-policy/27">safe-space</a> event. Our safe-space policy can be read online. By attending, you agree to abide by our policy.</p>
+			<p class="fr">GameLoop Montréal prend tous les moyens nécessaires pour offrir <a href="http://forum.mrgs.ca/t/slmr-politique-despace-securitaire-mrgs-safe-space-policy/27">un environnement sécuritaire</a> durant tous ses événements. En participant au GameLoop Montréal, vous acceptez de respecter notre politique.</p>			
+			<p><img src="img/icon-email.png">&nbsp;&nbsp;<a href="mailto:gameloopmtl@gmail.com">gameloopmtl@gmail.com</a><br/><img src="img/icon-twitter.png">&nbsp;&nbsp;<a href="http://twitter.com/gameloopmtl">@gameloopmtl</a></p>
+		</div>
+		
+		<div class="col">
+			<h2><span class="en">Organizers <span class="slash">/</span> </span><span class="fr">Organisateurs</span></h2>
+			<span class="organizer">
+				<img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/005/053/35e/00c9f54.jpg">
+				<strong>Nicolas Barrière-Kucharski</strong>
+				MRGS Craft Meetup organizer<br/>
+				<a href="http://twitter.com/soranomaru">@soranomaru</a>
+			</span>
+			
+			<span class="organizer">
+				<img src="https://pbs.twimg.com/profile_images/562713226882732032/alnSg-10_400x400.png">
+				<strong>Rebecca Cohen-Palacios</strong>
+				Pixelles, co-founder/director<br/>
+				<a href="http://twitter.com/rebheartsyou">@rebheartsyou</a>
+			</span>
+			
+			<span class="organizer">
+				<img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/000/1d9/2f6/02c3e4a.jpg">
+				<strong>Sharon Price</strong>
+				WIGI Montreal, chapter founder<br/>
+				<a href="http://twitter.com/roachsniper">@roachsniper</a>
+			</span>
+		</div>
+	
+		<div class="hr" style="background-image:url('img/hr.png');"></div>
+	</section>
+	
+	<footer id="menu-partners">
+		<a name="menu-partners"></a>
+		<h3><br/><span class="en">In collaboration <span class="slash">/</span> </span><span class="fr">En collaboration</span></h3>
+		<span class="mrgs">
+			<a href="http://mrgs.ca" target="_blank"><img src="img/logo-mrgs.png"/> <img src="img/logo-mrgswords.png"/></a>
+		</span>
+		
+		
+		<h3><br/><span class="en">Partners <span class="slash">/</span> </span><span class="fr">Partenaires</span></h3>
+		<span class="gold">
+			<a href="http://www.autodesk.ca/" target="_blank"><img src="img/logo-autodesk.png"></a>
+		</span>
+		
+		<span class="silver">
+			<a href="http://www.mlabgamestudies.com/" target="_blank"><img src="img/logo-mlab.png"></a>	
+			<a href="https://www.eidosmontreal.com/" target="_blank"><img src="img/logo-eidosg.png"></a>	
+			<a href="https://www.nexus.bar/" target="_blank"><img src="img/logo-nexus.png"></a>
+		</span>
+		
+		<span class="bronze">
+			<a href="http://tag.hexagram.ca" target="_blank"><img src="img/logo-tag.png"></a>
+			<a href="http://unity3d.com" target="_blank"><img src="img/logo-unity.png"></a>
+			<a href="http://www.igdamontreal.ca" target="_blank"><img src="img/logo-igda.png"></a>
+		</span>	
+		
+		<section id="credits">
+			Design + code # <a href="http://loudcat.net">Rebecca</a>
+		</section>
+	</footer>
+</body>
+</html>

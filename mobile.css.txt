@@ -1,0 +1,25 @@
+* {
+	border:0;
+	margin:0;
+	padding:0}
+	
+body {
+	background:#242833;
+	font-family:'Source sans pro', helvetica, arial, sans-serif;
+	font-size:1.2em;
+	color:#c0c0c0;}
+	
+a {
+	color:#41fff8;
+	text-decoration:none;}
+	
+p a:hover, section a:hover {
+	color:#000;
+	background:#41fff8;
+	border-bottom:3px solid #41fff8}
+	
+p a, section a {
+	border-bottom:1px solid #444}
+	
+	
+/* --- BANNER -------------------------------------------------------- */
