@@ -4,4 +4,39 @@
 	padding:0}
 	
 body {
-	background:url('../img/bg.gif');}
+	background:url('../img/bg.gif');
+	font:1.25em 'Roboto Condensed', sans-serif;}
+	
+section {
+	width:90%;
+	margin:50px auto 0 auto;
+	clear:left}
+
+.col {
+	width:45%;
+	float:left;
+	padding:15px}
+
+p {
+	margin-bottom:20px;
+	line-height:1.5em}
+	
+/* --- BANNER -------------------------------- */
+section#banner {
+	text-align:center}
+
+section#banner img {
+	vertical-align:middle}
+
+	
+/* --- LOGOS --------------------------------- */
+section#sponsors {
+	text-align:center}
+	
+section#sponsors span {
+	display:block}
+	
+section#sponsors img {
+	vertical-align:middle;
+	height:80px;
+	padding:5px;}
