@@ -36,7 +36,7 @@ div.hr {
 	background:url('../img/hr.png') repeat-x center center;
 	height:50px;
 	width:30%;
-	margin:0 30%;
+	margin:0 auto;
 	clear:left}
 	
 section#tickets div {
