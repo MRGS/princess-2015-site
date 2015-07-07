@@ -5,11 +5,11 @@
 	
 body {
 	background:url('../img/bg.gif');
-	font:1.25em 'Roboto Condensed', sans-serif;}
+	font:1.3em 'Roboto Condensed', sans-serif;}
 	
 section {
 	width:90%;
-	margin:50px auto 0 auto;
+	margin:50px auto;
 	clear:left}
 
 .col {
@@ -27,6 +27,15 @@ section#banner {
 
 section#banner img {
 	vertical-align:middle}
+	
+	
+/* --- CONTENT ------------------------------- */
+div.hr {
+	background:url('../img/hr.png') repeat-x center center;
+	height:50px;
+	width:30%;
+	margin:0 30%;
+	clear:left}
 
 	
 /* --- LOGOS --------------------------------- */
