@@ -4,22 +4,24 @@
 	padding:0}
 	
 body {
-	background:url('../img/bg.gif');
-	font:1.3em 'Roboto Condensed', sans-serif;}
+	background:url('../img/bg.jpg');
+	font:1.35em 'Ropa Sans', sans-serif;}
 	
 section {
 	width:90%;
 	margin:50px auto;
-	clear:left}
+	clear:left;}
 
 .col {
 	width:45%;
 	float:left;
-	padding:15px}
+	margin:0 10px;
+	padding:10px;
+/*	background:rgba(255,255,255,0.3);*/}
 
 p {
 	margin-bottom:20px;
-	line-height:1.5em}
+	line-height:1.4em}
 	
 /* --- BANNER -------------------------------- */
 section#banner {
@@ -36,6 +38,17 @@ div.hr {
 	width:30%;
 	margin:0 30%;
 	clear:left}
+	
+section#tickets div {
+	margin:auto}
+	
+.titling {
+	font-family:Alegreya;
+	font-size:1.7em;}
+	
+.titling em {
+	font-weight:bold;
+	text-shadow:0 2px #fa62b8}
 
 	
 /* --- LOGOS --------------------------------- */
