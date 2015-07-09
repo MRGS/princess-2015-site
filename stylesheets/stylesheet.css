@@ -34,6 +34,29 @@ a:hover {
 	text-decoration:none}
 	
 	
+/* --- BANNER -------------------------------- */
+ul#menu {
+	background:#000;
+	padding:8px 0;
+	text-align:center}
+	
+ul#menu li {
+	display:inline-block;}
+	
+ul#menu a {
+	color:#fff;
+	background:none;
+	text-decoration:none;
+	font-size:0.8em;
+	text-shadow:none;}
+	
+ul#menu a:hover {
+	color:#eed447;}
+	
+ul#menu .slash {
+	color:#606060;
+	padding:0 3px;}
+	
 	
 /* --- BANNER -------------------------------- */
 section#banner {
@@ -55,13 +78,18 @@ div.hr {
 section#tickets div {
 	margin:auto}
 	
-.titling {
+.titling, h2 {
 	font-family:Alegreya;
 	font-size:1.7em;}
 	
-.titling em {
+.titling em, h2 {
 	font-weight:bold;
 	text-shadow:0 2px #fa62b8}
+	
+h2 {
+	text-align:center;
+	margin:0;
+	padding:0;}
 	
 small {
 	font-size:0.6em;}
