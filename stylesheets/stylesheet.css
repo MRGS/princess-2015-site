@@ -130,7 +130,7 @@ div#details {
 	position:absolute;
 	right:0;
 	top:50px;
-	width:300px;
+	width:330px;
 	color:#fff;
 	z-index:20;}
 	
@@ -138,6 +138,7 @@ div#details div {
 	border-radius:5px;
 	margin-bottom:10px;
 	padding:10px;
+	margin-right:30px;
 	background:#000;
 	font-size:1.15em;
 	font-weight:bold;
@@ -146,4 +147,13 @@ div#details div {
 div#details img, h2 img, footer img, p img {
 	vertical-align:middle}	
 	
+div#details a {
+	color:#ff007d;
+	padding:5px;	
+	background:none;
+	text-shadow:none}
+
+div#details a:hover {
+	background:none;
+	text-decoration:none}
 
