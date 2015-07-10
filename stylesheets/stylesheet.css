@@ -106,3 +106,20 @@ section#sponsors img {
 	vertical-align:middle;
 	height:80px;
 	padding:5px;}
+
+	
+/*-----------bullshit added by joachim-----------------*/
+
+div.gamepic {
+	width:100%;
+	margin:75px 0 0;
+	float:left;
+	text-align:center;
+}
+
+div.gametitle {
+	float:left;
+	width:100%;
+	margin:20 0 20;
+	font-weight:bold;
+}
