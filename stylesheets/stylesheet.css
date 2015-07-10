@@ -48,7 +48,9 @@ ul#menu a {
 	background:none;
 	text-decoration:none;
 	font-size:0.8em;
-	text-shadow:none;}
+	text-shadow:none;
+	padding:0 15;
+}
 	
 ul#menu a:hover {
 	color:#eed447;}
