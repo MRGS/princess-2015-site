@@ -123,6 +123,17 @@ section {
 	font-family:Alegreya;
 	font-style:italic}
 	
+.game .author img {
+	margin-left:20px;}
+	
+.game .author a {
+	font-size:0.7em;
+	padding:0 !important;
+	background:none;
+	text-shadow:0 1px #8e8961;
+	position:relative;
+	top:-5px}
+	
 br.clear {
 	clear:left}
 
@@ -135,9 +146,4 @@ br.clear {
 	vertical-align:middle;
 	height:80px;
 	padding:5px}
-
-	
-/*-----------bullshit added by joachim-----------------*/
-
-]
 
