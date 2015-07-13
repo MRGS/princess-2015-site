@@ -107,12 +107,16 @@ section {
 	text-align:left;
 	margin:50px auto 0 auto}
 
+.gametitle {
+	margin-top: 100px;}
+
 .gamepic {
-	width:17%;
+	width:350px;
 	float:left;
 	margin-right:20px;
 	border-radius:50%;}
-	
+
+
 .game .title {
 	display:block;
 	font-size:3em}
