@@ -103,19 +103,19 @@ section {
 	clear:left;}
 	
 .game .details {
-	width:70%;
+	width:80%;
 	text-align:left;
 	margin:50px auto 0 auto}
 
 .gametitle {
-	margin-top: 100px;}
+	margin-top:40px;}
 
 .gamepic {
-	width:350px;
+	width:200px;
 	float:left;
 	margin-right:20px;
+	margin-bottom:20px;
 	border-radius:50%;}
-
 
 .game .title {
 	display:block;
@@ -143,11 +143,10 @@ br.clear {
 
 	
 /* --- LOGOS --------------------------------- */
-#sponsors span {
+#partners span {
 	display:block}
 	
-#sponsors img {
+#partners img {
 	vertical-align:middle;
 	height:80px;
 	padding:5px}
-
