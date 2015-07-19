@@ -150,3 +150,7 @@ br.clear {
 	vertical-align:middle;
 	height:80px;
 	padding:5px}
+	
+#partners a {
+	background:none;
+	text-decoration:none;}
